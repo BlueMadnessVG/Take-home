@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 0.5rem 0;
+}
+
+.nav__item {
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+  color: #0e3b51;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.header__navItem {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .nav {
+    display: none;
+  }
+}
