@@ -1,3 +1,7 @@
+export * from './Contact/FaceBook.icon';
+export * from './Contact/Mail.icon';
+export * from './Contact/Phone.icon';
+export * from './Contact/Twitter.icon';
 export * from './Information/Circle.icon';
 export * from './Information/Ghost.icon';
 export * from './Information/HeadPhones.icon';

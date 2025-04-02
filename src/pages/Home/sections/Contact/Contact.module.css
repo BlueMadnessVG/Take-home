@@ -1,0 +1,140 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactTitle {
+  color: #1ba986;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+.contactText {
+  color: #0e3b51;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.contactInfoItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #0e3b51;
+}
+
+.quickLinks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.quickLinks a {
+  color: #0e3b51;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.quickLinks a:hover {
+  color: #1ba986;
+}
+
+.newsletterText {
+  color: #0e3b51;
+  line-height: 1.6;
+  font-size: 0.8rem;
+}
+
+.newsletterForm {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 0.25rem;
+  transition: border-color 0.2s;
+}
+
+.newsletterForm input {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #0e3b51;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+
+
+.newsletterForm button {
+  padding: 0 1.5rem;
+  background-color: #1ba986;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.newsletterForm button:hover {
+  background-color: #158a6e;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 1.5rem;
+}
+
+.socialIcons svg {
+  fill: #1ba986;
+  transition: fill 0.2s;
+}
+
+.socialIcons svg:hover {
+  fill: #0e3b51;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem 2rem;
+    gap: 3rem;
+  }
+
+  .socialIcons {
+    justify-content: left;
+  }
+
+  .quickLinks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    padding: 6rem 4rem;
+    gap: 4rem;
+  }
+}
