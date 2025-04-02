@@ -1,5 +1,6 @@
 import style from "./Features.module.css";
 import { CardsInfo } from "./Cards.info";
+import { motion } from "framer-motion";
 import { FeaturesCard } from "../../../../components/Card";
 
 export const Features = () => {
@@ -7,14 +8,18 @@ export const Features = () => {
     <section className={style.features}>
       <picture className={style.imageContainer}>
         <source srcSet="/images/features/feat-image.jpg" type="image/webp" />
-        <img
+        <motion.img
           src="/images/features/feat-image.jpg"
           alt="Happy customer reviewing insurance documents"
           loading="lazy"
           className={style.featureImage}
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         />
       </picture>
-      
+
       <div className={style.content}>
         <div className={style.intro}>
           <h1>Getting Insured Is Simple & Fast</h1>
