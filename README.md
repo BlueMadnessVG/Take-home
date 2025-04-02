@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The Take-home project is a web application developed using React, TypeScript, and Vite. It serves as a template that provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
+This project is a responsive landing page designed as a take-home assignment. It features a clean, modern layout with sections for showcasing key information, services, and a call-to-action. The page is optimized for both desktop and mobile viewing.
 
 ## Technologies Used
 
