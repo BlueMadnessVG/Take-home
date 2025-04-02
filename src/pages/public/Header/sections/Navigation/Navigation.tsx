@@ -2,6 +2,7 @@ import { FlipText } from "../../../../../components/Text";
 import { Route } from "../../../../../models";
 import { motion } from "framer-motion";
 import style from "./Navigation.module.css";
+import { useNavigate } from "react-router-dom";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -54,6 +55,8 @@ export const Navigation = ({
   items,
   orientation = "horizontal",
 }: NavigationProps) => {
+  const navigate = useNavigate();
+
   return (
     <motion.div
       className={`${style.nav} ${style[`nav--${orientation}`]}`}
@@ -64,6 +67,7 @@ export const Navigation = ({
       {items.map(({ name, route }) => (
         <motion.a
           key={name}
+          onClick={() => navigate(route)}
           className={style.nav__item}
           variants={itemVariants}
           initial="hidden"

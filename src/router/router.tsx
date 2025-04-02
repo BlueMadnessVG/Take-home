@@ -1,6 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
-import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { PublicRoutes } from "./router.config";
 import { LoadingPage } from "../components/Loading/LoadingPage/LoadingPage";
 import { AuthGuard } from "../guards/auth.guard";

@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.module.css";
-import { Header, Home, Footer } from "./pages/public";
+import { Header, Footer } from "./pages/public";
 import { AppRouter } from "./router/router";
 
 function App() {
