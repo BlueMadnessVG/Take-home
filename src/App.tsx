@@ -1,7 +1,5 @@
 import "./App.module.css";
-import { Footer } from "./pages/Footer/Footer";
-import { Header } from "./pages/Header/Header";
-import { Home } from "./pages/Home";
+import { Header, Home, Footer } from "./pages/public";
 
 function App() {
   return (

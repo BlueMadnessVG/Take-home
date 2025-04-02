@@ -1,4 +1,4 @@
-import { InformationCard } from "../../../../components/Card";
+import { InformationCard } from "../../../../../components/Card";
 import style from "./Information.module.css";
 import { CardsInfo } from "./Cards.Info";
 import { motion } from "framer-motion";

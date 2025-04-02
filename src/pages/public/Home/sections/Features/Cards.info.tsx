@@ -1,4 +1,4 @@
-import { FeatureCard } from "../../../../models";
+import { FeatureCard } from "../../../../../models";
 
 export const CardsInfo: FeatureCard[] = [
   {

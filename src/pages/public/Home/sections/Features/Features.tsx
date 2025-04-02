@@ -1,7 +1,7 @@
 import style from "./Features.module.css";
 import { CardsInfo } from "./Cards.info";
 import { motion } from "framer-motion";
-import { FeaturesCard } from "../../../../components/Card";
+import { FeaturesCard } from "../../../../../components/Card";
 
 export const Features = () => {
   return (

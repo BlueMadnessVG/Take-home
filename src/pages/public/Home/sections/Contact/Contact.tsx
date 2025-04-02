@@ -3,8 +3,8 @@ import {
   FaceBookIcon,
   PhoneIcon,
   TwitterIcon,
-} from "../../../../assets/icons/Home";
-import { MailIcon } from "../../../../assets/icons/Home/Contact/Mail.icon";
+} from "../../../../../assets/icons/Home";
+import { MailIcon } from "../../../../../assets/icons/Home/Contact/Mail.icon";
 
 export const Contact = () => {
   return (

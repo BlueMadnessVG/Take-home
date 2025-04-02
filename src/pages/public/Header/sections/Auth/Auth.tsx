@@ -1,5 +1,5 @@
-import { ButtonUnderLine } from "../../../../components/Button";
-import { useMediaQuery } from "../../../../hooks";
+import { ButtonUnderLine } from "../../../../../components/Button";
+import { useMediaQuery } from "../../../../../hooks";
 import style from "./Auth.module.css";
 
 export const Auth = () => {

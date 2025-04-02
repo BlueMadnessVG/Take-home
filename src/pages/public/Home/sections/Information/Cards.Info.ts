@@ -1,4 +1,4 @@
-import { InformationCard } from "../../../../models";
+import { InformationCard } from "../../../../../models";
 import {
   TextIcon,
   HeadPhonesIcon,
@@ -6,7 +6,7 @@ import {
   ShieldIcon,
   CircleIcon,
   GhostIcon,
-} from "../../../../assets/icons/Home";
+} from "../../../../../assets/icons/Home";
 
 export const CardsInfo: Record<number, InformationCard> = {
   1: {

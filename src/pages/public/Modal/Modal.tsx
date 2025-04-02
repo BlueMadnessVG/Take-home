@@ -1,6 +1,6 @@
 import { ReactNode, useEffect, useRef } from "react";
 import style from "./Modal.module.css";
-import { useModalContext } from "../../context";
+import { useModalContext } from "../../../context";
 import { createPortal } from "react-dom";
 
 const eventListener = "keydown";

@@ -1,9 +1,8 @@
 import { Modal } from "../../../Modal";
 import { motion } from "framer-motion";
 import style from "./MobileMenu.module.css";
-import { PublicRoutes } from "../../../../router";
+import { PublicRoutes } from "../../../../../router";
 import { Navigation } from "../Navigation/Navigation";
-import { useModalContext } from "../../../../context";
 
 interface MobileMenuProps {
     closeModal: () => void;
@@ -21,7 +20,7 @@ export const MobileMenu = ({ closeModal }: MobileMenuProps) => {
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
-        onDragEnd={(e, info) => {
+        onDragEnd={(_e, info) => {
           if (info.offset.x < -100) {
             closeModal();
           }

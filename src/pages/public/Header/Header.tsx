@@ -1,9 +1,9 @@
-import { PublicRoutes } from "../../router";
+import { PublicRoutes } from "../../../router";
 import style from "./Header.module.css";
 import { Auth, Logo, Navigation, MobileMenu } from "./";
-import { useMediaQuery } from "../../hooks";
-import { useModalContext } from "../../context";
-import { MobileModalButton } from "../../components/Button";
+import { useMediaQuery } from "../../../hooks";
+import { useModalContext } from "../../../context";
+import { MobileModalButton } from "../../../components/Button";
 
 export const Header = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 820px)" });
