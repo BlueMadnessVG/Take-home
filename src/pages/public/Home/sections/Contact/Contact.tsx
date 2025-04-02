@@ -29,10 +29,10 @@ export const Contact = () => {
       <div className={style.contactSection}>
         <h1 className={style.contactTitle}>Quick Links</h1>
         <div className={style.quickLinks}>
-          <a href="">Insurance Plans</a>
-          <a href="">Claims Assistance</a>
-          <a href="">Customer Support</a>
-          <a href="">About Us</a>
+          <a >Insurance Plans</a>
+          <a >Claims Assistance</a>
+          <a >Customer Support</a>
+          <a >About Us</a>
         </div>
       </div>
 

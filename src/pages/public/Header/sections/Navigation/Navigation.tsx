@@ -1,6 +1,6 @@
 import { FlipText } from "../../../../../components/Text";
 import { Route } from "../../../../../models";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import style from "./Navigation.module.css";
 
 const containerVariants = {
