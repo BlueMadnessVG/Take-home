@@ -15,7 +15,7 @@ This project is a responsive landing page designed as a take-home assignment. It
 
 ### Option 1: Viewing Online
 
-If the project is hosted (e.g., on GitHub Pages, Netlify, or Vercel), you can view it by visiting the live URL (if available).
+If the project is hosted (e.g., on GitHub Pages, Netlify, or Vercel), you can view it by visiting the live URL ([URL](https://take-home-eight-mu.vercel.app)) (if available).
 
 ### Option 2: Running Locally
 
